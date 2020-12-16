@@ -24,4 +24,4 @@ Digite `ng e2e` para executar testes de ponta a ponta via [Protractor](http://ww
 
 ## Ajuda
 
-Para obter mais ajuda sobre o Angular CLI `ng help` ou visite a página de [Visão Geral e Referências de Comando do Angular CLI](https://angular.io/cli).
+Para obter mais ajuda sobre o Angular CLI `ng help` ou visite a página de [Visão Geral e Referências de Comandos do Angular CLI](https://angular.io/cli).
