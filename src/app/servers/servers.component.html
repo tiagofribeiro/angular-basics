@@ -1,3 +1,15 @@
-<button [disabled]="!allowNewServer" class="btn btn-primary">Add Server</button>
+<label>Server Name</label>
+<!-- Binding de input -->
+<!-- <input type="text" class="form-control" (input)="onUpdateServerName($event)"> -->
+<!-- Binding de ambas as direções -->
+<input type="text" class="form-control" [(ngModel)]="serverName">
+<p>{{serverName}}</p>
+<button [disabled]="!allowNewServer" class="btn btn-primary" (click)="onCreateServer()">Add Server</button>
+<!-- <p [innerText]="serverCreationStatus"></p> -->
+<!-- Directives *ng -->
+<p *ngIf="serverCreated; else noServer">{{serverCreationStatus}}</p>
+<ng-template #noServer>
+  <p>No Server was created.</p>
+</ng-template>
 <app-server></app-server>
 <app-server></app-server>
