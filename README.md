@@ -12,7 +12,7 @@ Digite `ng generate component component-name` para gerar um novo componente. Voc
 
 ## Build
 
-Digite `ng build` para compilar o projeto. As características da build podem ser encontradas no diretório `dist/`. Use a flag `--prod` para uma build de produção.
+Digite `ng build` para compilar o basics. As características da build podem ser encontradas no diretório `dist/`. Use a flag `--prod` para uma build de produção.
 
 ## Testes unitários
 
