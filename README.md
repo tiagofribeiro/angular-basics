@@ -1,6 +1,6 @@
-# ProjetoAngular
+# BasicsAngular
 
-Projeto que busca abrigar a maior quantidade possível de características do Angular.
+Projeto com o básico do Angular, para estudos e consultas.
 
 ## Servidor de desenvolvimento
 
